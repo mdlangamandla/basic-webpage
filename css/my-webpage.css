@@ -1,0 +1,189 @@
+
+*{
+  margin-left :5px;
+  padding: 0;
+}
+body{
+    background-color: lightgreen ;
+    font-family:josefin sans-serif;
+    font-weight: 100px;
+    width: 90%;
+   /* font-size: 18px;*/
+}
+ /*header*/
+ .intaba{
+    width: auto;
+    height: 250px;
+    float: right;
+    border-radius: 20px;
+    
+  }
+.imgZZ{
+    display: grid;
+    grid-template-columns: 80%;
+    grid-gap:1%;
+    position: center;
+    
+  }
+.bozza{
+    left: 50%;
+    width: 70%;
+    text-align: center;
+    padding:50px;
+    margin:auto;
+  }
+.igama{
+    font-size: 30px;
+    font-weight: bold;     
+}
+.igama2{
+    opacity: 0;     
+
+}
+
+p{
+    font-size: 15px;
+}
+  
+    
+/*header_ends*/
+
+
+
+
+
+
+/*city*/
+
+.container2{
+    display: grid;
+    grid-template-columns: 100%;
+    
+    
+  }
+.isixeko{
+    margin-top: 1%;
+   
+  }
+.madrid{
+    float: left;
+    margin-right: 2%;
+  }
+
+.city{
+    margin-bottom: 3%;
+  }
+.WC{
+    margin: 20px;
+}
+
+
+/*city_ends*/
+
+/*table*/
+.language{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+.containert{
+    margin-top: 1%;
+}
+
+table {
+
+    width: 100%;
+    padding: 10px 10px;
+    table-layout: auto;
+    
+}
+
+
+th {
+    text-align: left;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 15px;
+   
+}
+/*table_ends*/
+
+/*Historic_places*/
+
+.eyokugqibela{
+    
+        
+        margin-bottom: 30px;
+        padding-top: 30px;
+        
+      }
+
+.container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    column-gap: 3%;
+    
+  }
+
+.img1{
+    float: right;
+    margin-right: 2%;
+    width: auto;
+    height:150px;
+  }
+h3{
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+
+
+/*Historic_placesends*/
+
+.center{
+text-align: center;
+font-size: 25px;
+}
+
+/*media quary*/
+
+@media only screen and (max-width: 1005px){
+    .container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+
+    
+}
+.Meli{
+    float: left;
+}
+.igama2{
+    opacity: 100%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+.igama{
+    opacity: 0;
+  }
+
+
+
+
+
+@media only screen and (max-width: 430px){
+    
+    .img1{
+        width: auto;
+        height: 120px;
+
+    }
+    .Meli{
+        float: left;
+    }
+
+    }
+
