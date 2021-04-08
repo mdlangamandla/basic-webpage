@@ -5,7 +5,27 @@
 }
 
 ***
-
+.madrid{
+  float: left;
+  margin-right: 2%;
+}
+.row-name{
+  display: grid;
+  grid-template-columns: 100%;
+  
+  
+}
+.isixeko{
+  margin-top: 1%;
+ 
+}
+.WC{
+  margin: 20px;
+}
+.Ewe{
+  float: left;
+  padding-right: 2%;
+}
   
   
   table{
@@ -22,4 +42,23 @@
     border-collapse: collapse;
     font-size: 15px;
    
+}
+@media only screen and (max-width: 1005px){
+  #Meli{
+    float: left;
+
+  }
+}
+
+
+@media only screen and (max-width: 430px){
+    
+  .img-2{
+      width: auto;
+      height: 120px;
+
+  }
+  #Meli{
+    float: left;
+}
 }
